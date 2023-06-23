@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <h2>This is form tutorial</h2>
+    <form action="back.php">
+      <label for="name">Name</label>
+      
+      <div><input type="text" name="Myname" id="name"/></div><br>
+      <div>Role : <input type="text" name="Myrole" /></div><br>
+      <div>Email : <input type="email" name="Myemail"></div><br>
+      <div>Date: <input type="date" name="Mydate" ></div><br>
+      <div>Bonus: <input type="number" name="Mybonus " ></div><br>
+      <div> <label for="eli">Are you eligible?</label><input type="checkbox" name="MyEligibilty" id="eli" ></div><br>
+      <div>Gender: Male <input type="radio" name="MyGender" > FeMale <input type="radio" name="MyGender" > Other <input type="radio" name="MyGender" ></div><br>
+      <div>Write About yourself: <br><textarea name="mytext"  cols="30" rows="10"></textarea></div><br>
+      <div>
+        <label for="car">Cars:</label>
+        <select name="mycar" id="car">
+          <option value="in">Indica</option>
+          <option value="swf" selected>Swift</option>
+        </select>
+      </div>
+      <br>
+      <div><input type="submit" value="Submit Now">
+      <input type="reset" value="Reset Now">
+      </div><br>
+    </form>
+  </body>
+</html>
