@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js String Functions</title>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+
+    <script>
+        var str = 'this is a string'; 
+        console.log(str);
+
+        // first occurence of a substring
+        var positon = str.indexOf('is');
+        console.log(positon);
+        // last occurence of a substring
+        var position = str.lastIndexOf('is');
+        console.log(position);
+
+        // substring from a string
+        var substr = str.substring(1,6);
+        console.log(substr);
+
+        var replace = str.replace('string','Vatsal');
+        console.log(replace)
+        
+
+        console.log(str.toUpperCase())
+        console.log(str.toLowerCase())
+
+        var newstr = str.concat(' which is too short.');
+        console.log(newstr)
+
+        var strwhitespaces = 'this contasins s nxsi     .';
+        console.log(strwhitespaces.trim())
+
+        var char3 = str.charAt(2);
+        console.log(char3)
+        console.log(str[1])
+
+    </script>
+</body>
+</html>
